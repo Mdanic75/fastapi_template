@@ -15,3 +15,4 @@ Roadmap
 11) Generic Notificator
 12) Email, Sms
 13) jupyter notebook
+14) cloud deployment
