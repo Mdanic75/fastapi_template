@@ -8,6 +8,10 @@ fastapi = "*"
 uvicorn = "*"
 starlette = "*"
 pydantic = "*"
+sqlmodel = "*"
+alembic = "*"
+sqlalchemy = "*"
+psycopg2 = "*"
 
 [dev-packages]
 
