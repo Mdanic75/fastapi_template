@@ -7,11 +7,13 @@ name = "pypi"
 fastapi = "*"
 uvicorn = "*"
 starlette = "*"
-pydantic = "*"
+pydantic = {extras = ["dotenv"], version = "*"}
 sqlmodel = "*"
 alembic = "*"
 sqlalchemy = "*"
 psycopg2 = "*"
+fastapi-users = {extras = ["oauth", "redis", "sqlalchemy"], version = "*"}
+asyncpg = "*"
 
 [dev-packages]
 
